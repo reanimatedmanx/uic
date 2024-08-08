@@ -1,5 +1,21 @@
 # solid-js
 
+## 1.8.20
+
+### Patch Changes
+
+- c8fe58e9: fix #2250 hydration error, fix lazy component loading, better hydration cancelation
+- 80dd2769: fix #2236 improper shortcircuit in resource hydration
+
+## 1.8.19
+
+### Patch Changes
+
+- 3fc015c2: track length in array helpers, fix mobx external source
+- f909c1c1: fix #2228 - chained resources with initial values
+- 816a5c61: fix #2209 processing parent before child value binding in select
+- 424a31a3: optimize hydration keys
+
 ## 1.8.18
 
 ### Patch Changes
